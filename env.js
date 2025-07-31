@@ -1,0 +1,5 @@
+export const OPENAI_API_KEY =
+  "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";
+export const PINECODE_API_KEY =
+  "pcsk_7Jacjc_Hkv2amQNeMoM6taPvfLydSYVPV9nspkHtNrbSxh8G8CyFWkydzFr1ZvhT8nKYS1";
+export default OPENAI_API_KEY;
