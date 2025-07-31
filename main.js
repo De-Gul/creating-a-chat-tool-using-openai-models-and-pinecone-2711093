@@ -28,8 +28,8 @@ async function generateEmbedding(input) {
 // Query Pinecone using embedding
 async function queryData(queryVector) {
   const queryResponse = await index.query({
-    vectore: queryVector,
-    topK: 1,
+    vector: queryVector,
+    topK: 3,
     includeValues: false,
     includeMetadata: true,
   });

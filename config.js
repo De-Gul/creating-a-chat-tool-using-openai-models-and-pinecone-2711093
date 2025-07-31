@@ -6,7 +6,7 @@ export const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
   dangerouslyAllowBrowser: true,
 });
-const pc = new Pinecone({
+export const pinecone = new Pinecone({
   apiKey: PINECODE_API_KEY,
 });
-export const index = pinecone.index("red30-tech-conf");
+export const index = pinecone.index("my-index");
