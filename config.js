@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import { Pinecone } from "@pinecone-database/pinecone";
-import { OPENAI_API_KEY, PINECODE_API_KEY } from "./env";
+import { OPENAI_API_KEY, PINECODE_API_KEY } from "./env/env";
 // OpenAI config
 export const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
